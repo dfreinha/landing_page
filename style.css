@@ -4,9 +4,10 @@ body{
 
 .header-bar{
     display: flex;
-    background-color: #1F2937;
+    background-color: #1c3150;
     justify-content: space-between;
     Height: 100px;
+    background-blend-mode: lighten;
 }
 
 .header-links{
@@ -21,8 +22,10 @@ a{
 
 .top-container{
     display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
+    justify-content: space-around;
+    background-color: #1c3150;
+    align-items:center;
+    margin-right: 5px;
 }
 
 .impact-statement{
@@ -69,9 +72,21 @@ a{
     gap: 30px;
 }
 
+
 button{
     background-color: #3883F6;
     height: 50px;
+    color: azure;
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
 }
 
+img{
+    opacity: .6;
+}
+
+.image-container img{
+    margin-bottom: -43px;
+}
 
