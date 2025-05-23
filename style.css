@@ -46,20 +46,37 @@ a{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-bottom: 10px;
 }
 
 .info-bits{
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    height: 200px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote{
     display: flex;
-    background-color: #E5E7EB;
     justify-content: center;
-    align-items: center;
-    height: 200px;
+}
+
+.quote-attribute{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 30px;
 }
 
 .footer{
@@ -70,6 +87,8 @@ a{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin:60px 120px;
+    border-radius: 20px;
 }
 
 
@@ -88,6 +107,7 @@ img{
 
 .image-container img{
     margin-bottom: -43px;
+
 }
 
 .info-scontainer{
@@ -95,7 +115,14 @@ img{
     flex-direction: column;
     align-items: center;
 }
+
+.simage-container{
+    border: thick double #32a1ce;
+    border-radius: 15px;
+}
+
 .img-subtext{
     max-width: 200px;
     text-align: center;
 }
+
