@@ -25,7 +25,7 @@ a{
     justify-content: space-around;
     background-color: #1c3150;
     align-items:center;
-    margin-right: 5px;
+    
 }
 
 .impact-statement{
@@ -50,8 +50,8 @@ a{
 
 .info-bits{
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap: 30px;
+    justify-content: space-evenly;
 }
 
 .quote{
@@ -83,10 +83,19 @@ button{
 }
 
 img{
-    opacity: .6;
+    opacity: .8;
 }
 
 .image-container img{
     margin-bottom: -43px;
 }
 
+.info-scontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-subtext{
+    max-width: 200px;
+    text-align: center;
+}
